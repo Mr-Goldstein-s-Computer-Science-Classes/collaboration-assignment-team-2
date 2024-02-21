@@ -13,17 +13,28 @@ assignmentNames.add(assignName);
     void gradeAssignment(String assignment, double grade){
     int tracker = 0;
 for(int i = 0; i<assignmentNames.size();i++){
-    if(assignmentNames())
+    if(assignmentNames.get(i).compareTo(assignment) == 0)
+        tracker = i;
 }
+gradeDouble.add(tracker,grade);
     }
     double getAssignmentGrade(String assignment){
-
+        int tracker = 0;
+        for(int i = 0; i<assignmentNames.size();i++){
+            if(assignmentNames.get(i).compareTo(assignment) == 0)
+                tracker = i;
+        }
+        return gradeDouble.get(tracker);
     }
     double getOverallGrade() {
-
+    double totalGrades = 0;
+for(int i =0;i<gradeDouble.size();i++){
+    totalGrades += gradeDouble.get(i);
+}
+return totalGrades/gradeDouble.size();
     }
 
-    String toString() { //Return the Student name and the students average
-
+    public String toString() { //Return the Student name and the students average
+return student + " " + getOverallGrade();
     }
 }
