@@ -1,11 +1,15 @@
 Your task is to create a Gradebook class, a Student class, and a Main class
 
+
 The Gradebook should contain some Students and assignments
+
 The Student class should contain corresponding assignment names and grades
+
 
 You can create other private methods, but the only public methods should be as listed below
 
 Public Methods for Gradebook:
+
 	Gradebook()
 	void createStudent(String name)
 	void addAssignment(String assignment)
@@ -17,10 +21,11 @@ Public Methods for Gradebook:
 	double getMaxOverall()
 	double getMinOverall()
 	double getStudentsGrade()
-	String toString() -Returns the names of the students and the names of the assignments as a String
+	String toString() //Returns the names of the students and the names of the assignments as a String
 	Student getStudent(String studentName)
 
 Public Methods for Student:
+
 	Student(String name)
 	void addAssignment(String assignName) //start as ungraded
 	void gradeAssignment(String assignment, double grade)
@@ -32,48 +37,55 @@ Public Methods for Student:
 
 
 Main:
-Create a Gradebook object called grades
-Create Students inside of grades
-Tyler
-James
-Ethan
-Scotty
-David
-Patrick
-Create Assignments:
-Stacks And Queues Station Activity
-Stacks and queues programs
-Stacks and queues quiz
-Github Exploration
-Grade Assignments:
-Stacks and queues station
-Tyler got a 94
-James got a 14
-Ethan got a 5
-Scotty got a 100
-David didn’t do it (0)
-Patrick got a 79
-Stacks and queues programs
-Tyler got a 100
-James got a 64
-Ethan got a 100
-Scotty got a 101
-David got a 26
-Patrick got a 99
-Stacks and queues quiz
-Tyler got a 100
-James got a 100
-Ethan got a 100
-Scotty got a 87
-David got a 92
-Patrick got a 83
-Github Exploration
-Tyler got a 96
-James got a 43
-Ethan got a 100
-Scotty got a 97
-David got a 28
-Patrick got a 100
-Print out the stats for all assignments and overall grades
-Print the grades object
-Print the object of each student
+
+1. Create a Gradebook object called grades
+
+2. Create Students inside of grades
+
+	1. Tyler
+	2. James
+	3. Ethan
+	4. Scotty
+	5. David
+	6. Patrick
+
+3. Create Assignments:
+
+	1. Stacks And Queues Station Activity
+	2. Stacks and queues programs
+	3. Stacks and queues quiz
+	4. Github Exploration
+   
+4. Grade Assignments:
+	1. Stacks and queues station
+		1. Tyler got a 94
+		2. James got a 14
+		3. Ethan got a 5
+		4. Scotty got a 100
+		5. David didn’t do it (0)
+		6. Patrick got a 79
+	2. Stacks and queues programs
+		1. Tyler got a 100
+		2. James got a 64
+		3. Ethan got a 100
+		4. Scotty got a 101
+		5. David got a 26
+		6. Patrick got a 99
+	3. Stacks and queues quiz
+		1. Tyler got a 100
+		2. James got a 100
+		3. Ethan got a 100
+		4. Scotty got a 87
+		5. David got a 92
+		6. Patrick got a 83
+	4. Github Exploration
+		1. Tyler got a 96
+		2. James got a 43
+		3. Ethan got a 100
+		4. Scotty got a 97
+		5. David got a 28
+		6. Patrick got a 100
+    
+5. Print out the stats for all assignments and overall grades
+6. Print the grades object
+7. Print the object of each student
