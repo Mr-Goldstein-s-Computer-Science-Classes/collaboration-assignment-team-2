@@ -1,10 +1,12 @@
 import java.util.ArrayList;
 
 public class Gradebook {
-    private ArrayList<Student> Name = new ArrayList<>();
-    private ArrayList<Object> Grades = new ArrayList<>();
-    public Gradebook(){
 
+    private String gradebook;
+    private ArrayList<Student> Name = new ArrayList<>();
+    private ArrayList<Double> Grades = new ArrayList<>();
+    public Gradebook(){
+        this.gradebook = gradebook;
     }
     public void createStudent(String name){
         String student = name;
@@ -35,7 +37,7 @@ public class Gradebook {
     }
    public double getStudentsGrade(){
 
-    }
+   }
     public String toString(){
 
     }
