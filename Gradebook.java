@@ -9,9 +9,11 @@ public class Gradebook {
         this.gradebook = gradebook;
     }
     public void createStudent(String name){
+
         String student = name;
     }
     public void addAssignment(String assignment){
+
         String project = assignment;
     }
     public void gradeAssignment(String assignment, String studentName, double grade){
@@ -21,7 +23,7 @@ public class Gradebook {
 
     }
     public double getMinimumGrade(String assignment){
-
+        for(int x = 0;)
     }
     public double getMaximumGrade(String assignment){
 
