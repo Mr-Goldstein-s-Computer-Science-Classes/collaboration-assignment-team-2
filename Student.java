@@ -4,7 +4,15 @@ private String student;
  private ArrayList<String> assignmentNames = new ArrayList<String>();
 private ArrayList<Double> gradeDouble = new ArrayList<Double>();
 
-public Student(String student){
+    public String getStudent() {
+        return student;
+    }
+
+    public ArrayList<String> getAssignmentNames() {
+        return assignmentNames;
+    }
+
+    public Student(String student){
     this.student = student;
 }
     void addAssignment(String assignName){//start as ungraded
