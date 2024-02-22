@@ -19,12 +19,17 @@ for(int i = 0; i<assignmentNames.size();i++){
 gradeDouble.add(tracker,grade);
     }
     double getAssignmentGrade(String assignment){
-        int tracker = 0;
+        int tracker = -1;
         for(int i = 0; i<assignmentNames.size();i++){
-            if(assignmentNames.get(i).compareTo(assignment) == 0)
-                tracker = i;
+            if(gradeDouble.get(i) != null) {
+                if (assignmentNames.get(i).compareTo(assignment) == 0)
+                    tracker = i;
+            }
         }
-        return gradeDouble.get(tracker);
+if(tracker == -1){
+    System.out.println("This assignment is ungraded");
+}
+      return gradeDouble.get(tracker);
     }
     double getOverallGrade() {
     double totalGrades = 0;
