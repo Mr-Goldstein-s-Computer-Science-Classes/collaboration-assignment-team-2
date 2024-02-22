@@ -44,13 +44,34 @@ public class Main {
             grades.gradeAssignment("GithubExploration", "Scotty", 97);
             grades.gradeAssignment("GithubExploration", "David", 28);
             grades.gradeAssignment("GithubExploration", "Patrick", 100);
+            
+            System.out.println(grades.getAverageGrade("StacksAndQueuesActivity"));
+            System.out.println(grades.getMaximumGrade("StacksAndQueuesActivity"));
+            System.out.println(grades.getMinimumGrade("StacksAndQueuesActivity"));
+            System.out.println(grades.getAverageGrade("StacksAndQueuesProgram"));
+            System.out.println(grades.getMaximumGrade("StacksAndQueuesProgram"));
+            System.out.println(grades.getMinimumGrade("StacksAndQueuesProgram"));
+            System.out.println(grades.getAverageGrade("StacksAndQueuesQuiz"));
+            System.out.println(grades.getMaximumGrade("StacksAndQueuesQuiz"));
+            System.out.println(grades.getMinimumGrade("StacksAndQueuesQuiz"));
+            System.out.println(grades.getAverageGrade("GithubExploration"));
+            System.out.println(grades.getMaximumGrade("GithubExploration"));
+            System.out.println(grades.getMinimumGrade("GithubExploration"));
 
-            for(int x = 0; x < ; x++){
-                System.out.println();
-            }
+            System.out.println(grades.getAverageOverall());
+            System.out.println(grades.getMaxOverall());
+            System.out.println(grades.getMinOverall());
+            
+            System.out.println(grades);
 
-                System.out.println(grades);
-
+        System.out.println(grades.getStudent("Tyler"));
+        System.out.println(grades.getStudent("James"));
+        System.out.println(grades.getStudent("Ethan"));
+        System.out.println(grades.getStudent("Scotty"));
+        System.out.println(grades.getStudent("David"));
+        System.out.println(grades.getStudent("Patrick"));
+            
+        
 
 
     }
